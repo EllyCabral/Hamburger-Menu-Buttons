@@ -1,0 +1,183 @@
+* {
+  transition: .25s all;
+  -webkit-transition: .25s all;
+  -moz-transition: .25s all;
+  -ms-transition: .25s all;
+  -o-transition: .25s all;
+}
+.col {
+  width: 19%;
+  float: left;
+  margin: 2%;
+  background: #222;
+  padding: 5%;
+  height: 30px;
+}
+
+/* Three Equal Rows */
+  .lines.one {
+    clear: both;
+    overflow: hidden;
+    width: 25px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+  .lines.one .line {
+    height: 3px;
+    background: #fff;
+    margin: 4px 0;
+  }
+  .lines.one .line.one {
+    width: 100%;
+  }
+  .lines.one .line.two {
+    width: 100%;
+  }
+  .lines.one .line.three {
+    width: 100%;
+  }
+  .lines.one:hover .line.one {
+    width: 72%;
+    margin-left: 14%;
+    margin-right: 14%;
+  }
+  .lines.one:hover .line.two {
+    width: 88%;
+    margin-left: 6%;
+    margin-right: 6%;
+  } 
+  .lines.one:hover .line.three {
+    width: 72%;
+    margin-left: 14%;
+    margin-right: 14%;
+  }
+  .lines.one.open .line.one {
+    width: 100%;
+    margin: 10px 0 0 0;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .lines.one.open .line.two {
+    display: none;
+  }
+  .lines.one.open .line.three {
+    margin: -3px 0 10px 0;
+    width: 100%;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+
+/* Three Uneven Rows (100/72/88) */
+  .lines.two {
+    clear: both;
+    overflow: hidden;
+    width: 25px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+  .lines.two .line {
+    height: 3px;
+    background: #fff;
+    margin: 4px 0;
+  }
+  .lines.two .line.one {
+    width: 100%;
+  }
+  .lines.two .line.two {
+    width: 72%;
+  }
+  .lines.two .line.three {
+    width: 88%;
+  }
+  .lines.two:hover .line.one {
+    width: 88%;
+  }
+  .lines.two:hover .line.two {
+    width: 100%;
+  } 
+  .lines.two:hover .line.three {
+    width: 72%;
+  }
+  .lines.two.open .line.one {
+    width: 100%;
+    margin: 10px 0 0 0;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .lines.two.open .line.two {
+    display: none;
+  }
+  .lines.two.open .line.three {
+    margin: -3px 0 10px 0;
+    width: 100%;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+
+/* Three Uneven Rows (88/100/72) */
+  .lines.three {
+    clear: both;
+    overflow: hidden;
+    width: 25px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+  .lines.three .line {
+    height: 3px;
+    background: #fff;
+    margin: 4px 0;
+  }
+  .lines.three .line.one {
+    width: 88%;
+  }
+  .lines.three .line.two {
+    width: 100%;
+  }
+  .lines.three .line.three {
+    width: 72%;
+  }
+  .lines.three:hover .line.one {
+    width: 100%;
+  }
+  .lines.three:hover .line.two {
+    width: 72%;
+  } 
+  .lines.three:hover .line.three {
+    width: 88%;
+  }
+  .lines.three.open .line.one {
+    width: 100%;
+    margin: 10px 0 0 0;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .lines.three.open .line.two {
+    display: none;
+  }
+  .lines.three.open .line.three {
+    margin: -3px 0 10px 0;
+    width: 100%;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
